@@ -66,8 +66,8 @@ A simple web application built with Flask to manage reminders and send email not
         ```
     *   **Database URI:** The default is `sqlite:///reminder.db`. You can change the path or use a different database supported by SQLAlchemy if needed.
     *   **Flask-Mail Settings:**
-        *   Replace `'anujmukul9@gmail.com'` with *your* Gmail address in `MAIL_USERNAME` and `MAIL_DEFAULT_SENDER`.
-        *   Replace `'valz inpl jlvp asyd'` with *your* Gmail App Password. **Important:** Do not use your regular Gmail password. You need to generate an "App Password" for this application in your Google Account settings (under Security -> 2-Step Verification -> App passwords).
+        *   Replace `'gg@gmail.com'` with *your* Gmail address in `MAIL_USERNAME` and `MAIL_DEFAULT_SENDER`.
+        *   Replace `''` with *your* Gmail App Password. **Important:** Do not use your regular Gmail password. You need to generate an "App Password" for this application in your Google Account settings (under Security -> 2-Step Verification -> App passwords).
         *   **Security Warning:** Hardcoding credentials directly in the code is not recommended for production environments. Consider using environment variables or a configuration file (`.env`) to store sensitive information like email credentials and the secret key.
 
 5.  **Run the Application:**
