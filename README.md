@@ -68,8 +68,7 @@ A simple web application built with Flask to manage reminders and send email not
     *   **Flask-Mail Settings:**
         *   Replace `'gg@gmail.com'` with *your* Gmail address in `MAIL_USERNAME` and `MAIL_DEFAULT_SENDER`.
         *   Replace `''` with *your* Gmail App Password. **Important:** Do not use your regular Gmail password. You need to generate an "App Password" for this application in your Google Account settings (under Security -> 2-Step Verification -> App passwords).
-        *   **Security Warning:** Hardcoding credentials directly in the code is not recommended for production environments. Consider using environment variables or a configuration file (`.env`) to store sensitive information like email credentials and the secret key.
-
+       
 5.  **Run the Application:**
     ```bash
     python app.py
